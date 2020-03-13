@@ -1,20 +1,4 @@
 //META{"name":"Theme pe Ciairo","description":"Ciroooooooooooooooooo e' ancora vivoooooooo","author":"ManuelRix","version":"1.0"}*//{}
-:root {
-    --home-iconcina: url(https://cdn.discordapp.com/attachments/380026348355190785/627844689759830017/discord-computer-icons-logo-user-internet-bot-discord-icon.png);
-    --bg-immagine: url(https://img5.goodfon.com/wallpaper/nbig/e/cd/vektor-gorod-stil-zdaniia-zdanie-arkhitektura-art-romain-t-6.jpg);
-    --immagine-profilo: url(https://c4.wallpaperflare.com/wallpaper/24/372/860/toradora-aisaka-taiga-simple-background-headphones-wallpaper-preview.jpg);
-    --rs-small-spacing: 2px;  /* spazio tra avatar e status */
-    --rs-large-spacing: 3px;  /* spazio tra avatar e status per popout e profili */
-    --rs-width: 2px;  /* larghezza status */
-    --rs-avatar-shape: 50%;  /* 50% per cerchio - 0% per quadrato */
-    --rs-online-color: #43b581;  /* colore online */
-    --rs-idle-color: #faa61a;  /* colore idle */
-    --rs-dnd-color: #f04747;  /* colore per non disturbare */
-    --rs-offline-color: #636b75;  /* colore per offline */
-    --rs-streaming-color: #643da7;  /* colore per streaming */
-    --rs-invisible-color: #747f8d;  /* colore per invisibile */
-}
-
 /*Fix forzato triangolino*/
 .theme-dark {
     --background-tertiary:;
@@ -48,7 +32,7 @@
 .markup-2BOw-j {
     font-weight:bold;
     color:white;
-    font-size: 24px;
+    font-size: var(--font-chat);
 }
 .username-1A8OIy{
     font-weight: bolder;
