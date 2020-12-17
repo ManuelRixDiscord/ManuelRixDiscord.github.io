@@ -1,5 +1,15 @@
 //META{"name":"Nana","description":"Per una persona orribile che e' 2 Nana contemporaneamente","author":"ManuelRix","version":"0.1"}*//{}
 
+:root {
+    --background-tertiary:transparent;
+    --background-secondary:transparent;
+    --background-primary:transparent;
+    --deprecated-store-bg:transparent;
+    --background-secondary-alt:transparent;
+    --sfondino:url(https://i.pinimg.com/originals/4e/e6/b9/4ee6b9176df0f18fc0ccb29e69f9de62.jpg);
+    --iconacasuccia:url(https://i.pinimg.com/474x/4f/8b/a2/4f8ba271c72dae3f48604b192d1ac1cb.jpg);
+}
+
 /*Barretta di windows*/
 .withFrame-haYltI
 {
