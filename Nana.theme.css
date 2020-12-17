@@ -1,0 +1,188 @@
+//META{"name":"Nana","description":"Per una persona orribile che e' 2 Nana contemporaneamente","author":"ManuelRix","version":"0.1"}*//{}
+
+:root 
+{
+    --background-tertiary:transparent;
+    --background-secondary:transparent;
+    --background-primary:transparent;
+    --deprecated-store-bg:transparent;
+    --background-secondary-alt:transparent;
+    --sfondino:url(https://i.pinimg.com/originals/4e/e6/b9/4ee6b9176df0f18fc0ccb29e69f9de62.jpg);
+    --iconacasuccia:url(https://i.pinimg.com/474x/4f/8b/a2/4f8ba271c72dae3f48604b192d1ac1cb.jpg);
+}
+
+/*Barretta di windows*/
+.withFrame-haYltI
+{
+    margin-top: 0;
+}
+.typeWindows-1za-n7
+{
+    background-color: #010101;
+}
+
+/*Fix orologio*/
+#clockPluginClock
+{
+    z-index: 9999;
+}
+
+/*Plugin spotify*/
+.timeline-UWmgAx:hover .barFill-Dhkah7
+{
+    background: #788bca !important;
+}
+
+/*Fix triangolo demmerda*/
+.container-2lgZY8
+{
+    background-color: #010101;
+}
+
+/*Home icon*/
+TODO 
+
+/*Server*/
+.scroller-2TZvBN
+{
+    background-color: #010101;
+}
+
+/*Sezione amici*/
+.theme-dark .container-1D34oG
+{
+    background-color: transparent;
+}
+
+/*Attivi ora e schede*/
+.nowPlayingColumn-2sl4cE
+{
+    background-image: linear-gradient(rgba(0,0,0,.6) ,#010101 430px);
+}
+.itemCard-v9viV7:first-of-type
+{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,.8);
+}
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover
+{
+    background-color: rgba(255,255,255,.3);
+}
+.theme-dark .inset-3sAvek
+{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,.8);
+}
+.theme-dark .separator-XqIyoz
+{
+    background-color: white;
+}
+/*Setta sfondo per la sezione amici*/
+.theme-dark .container-1D34oG
+{
+    background-image: var(--sfondino);
+    background-size: cover;
+}
+
+/*Messaggi diretti*/
+.platform-win .sidebar-2K8pFh
+{
+    background-color: #010101;
+}
+
+/*Tasto aggiungi amico*/
+.item-3HknzM[aria-label="Aggiungi amico"] 
+{
+    background-color: #788bca !important;
+}
+
+/*Search bar*/
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx
+{
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+/*Sfondo in Nitro*/
+.homeWrapperNormal-2KSUEa
+{
+    background-image: var(--sfondino);
+    background-size: cover;
+}
+
+/*Sfondo in libreria*/
+.container-3Mxszk
+{
+    background-image: var(--sfondino);
+    background-size: cover;
+}
+
+/*Scusa Wumpus ma devo toglierti dalla libreria*/
+.theme-dark .emptyWumpus-12J3jI
+{
+    background: none;
+}
+
+/*Spostare scritta della libreria*/
+.emptyStateText-1CEHF_
+{
+    position: relative;
+    top: -400px;
+    right: 230px;
+    text-align: left;
+}
+
+/*Sfondo in server chat e membri*/
+.chat-3bRxxu
+{
+    background-image: var(--sfondino);
+    background-size: cover;
+}
+/*Trasparenza in message box*/
+.scrollableContainer-2NUZem
+{
+    background-color: rgba(0,0,0,.9);
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.members-1998pB, .members-1998pB>div
+{
+    background-image: linear-gradient(rgba(0,0,0,.6) ,#010101 430px);
+}
+
+/*Cambio colore connessione alla chiamata*/
+.rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3
+{
+    color: #8c9cd0;
+}
+.rtcConnectionStatusConnected-VRZDjy
+{
+    color: #8c9cd0;
+}
+
+/*Tastini comando su messaggi inviati*/
+.wrapper-2aW0bm
+{
+    background-color: rgba(0,0,0,.9);
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+/*Video e stream*/
+.button-1YfofB.buttonColor-7qQbGO, .button-1YfofB .buttonColor-7qQbGO
+{
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp, .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp
+{
+    background-color: #7287ca;
+}
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover, .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp:hover
+{
+    background-color: #526dc5;
+}
+
+
