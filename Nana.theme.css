@@ -31,15 +31,18 @@
 }
 
 /*Home icon*/
-.homeIcon-tEMBK1
+.wrapper-1BJsBx[aria-label="Home"] .childWrapper-anI2G9 
 {
-    background: url('https://manuelrixdiscord.github.io/homeiconNana.png');
-    background-size: 500px 500px;
+    background-image: url(https://manuelrixdiscord.github.io/homeiconNana.png);
+    background-position: center;
+    background-color: transparent!important;
+    background-size: cover;
+    background-clip: border-box;
     background-repeat: no-repeat;
 }
-.homeIcon-tEMBK1 path 
+.homeIcon-tEMBK1, .da-homeIcon
 {
-    fill: transparent;
+    display: none!important
 }
 
 /*Server*/
