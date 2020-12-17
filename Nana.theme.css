@@ -31,12 +31,14 @@
 }
 
 /*Home icon*/
-.homeIcon-tEMBK1 {
-    background: url('https://manuelrixdiscord.github.io/homeiconNana.png') center/contain no-repeat;
-    min-width: 30px;
-    min-height: 30px;
+.homeIcon-tEMBK1
+{
+    background: url('https://manuelrixdiscord.github.io/homeiconNana.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-.homeIcon-tEMBK1 path {
+.homeIcon-tEMBK1 path 
+{
     fill: transparent;
 }
 
